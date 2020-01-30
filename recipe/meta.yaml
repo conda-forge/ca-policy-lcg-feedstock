@@ -1,5 +1,5 @@
 {% set name = "ca-policy-lcg" %}
-{% set version = "1.103" %}
+{% set version = "1.104" %}
 
 package:
   name: {{ name|lower }}
