@@ -299,7 +299,7 @@ test:
 
 about:
   home: http://www.egi.eu/
-  license: LicenseRef-IGTF-Federation
+  license: LicenseRef-IGTF
   license_file: LICENSE
   license_family: other
   summary: 'Trust anchors endorsed by the EGI.eu foundation'
