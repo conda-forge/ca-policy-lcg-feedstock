@@ -3,9 +3,9 @@ About ca-policy-lcg
 
 Home: http://www.egi.eu/
 
-Package license: IGTF Federation
+Package license: LicenseRef-IGTF
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Trust anchors endorsed by the EGI.eu foundation
 
