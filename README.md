@@ -5,7 +5,7 @@ Home: http://www.egi.eu/
 
 Package license: LicenseRef-IGTF
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ca-policy-lcg-feedstock/blob/master/LICENSE.txt)
 
 Summary: Trust anchors endorsed by the EGI.eu foundation
 
