@@ -274,7 +274,7 @@ source:
 
 build:
   noarch: generic
-  number: 0
+  number: 1
   # DIRAC will try to update these automatically so avoid linking between environments
   no_link:
     - ${PREFIX}/etc/grid-security/certificates/*
