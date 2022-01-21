@@ -4,8 +4,9 @@ IFS=$'\n\t'
 
 # List then copy the certificates
 ls "${PKG_NAME}"
-mkdir -p ${PREFIX}/etc/grid-security/certificates
+mkdir -p "${PREFIX}/etc/grid-security/certificates"
 cp -r  "${PKG_NAME}"/* "${PREFIX}/etc/grid-security/certificates"
+chmod -R 755 "${PREFIX}/etc/grid-security/certificates"
 
 # Actiation scripts
 mkdir -p "${PREFIX}/etc/conda/activate.d"
