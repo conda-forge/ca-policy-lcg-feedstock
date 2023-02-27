@@ -1,11 +1,11 @@
-About ca-policy-lcg
-===================
+About ca-policy-lcg-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ca-policy-lcg-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.egi.eu/
 
 Package license: LicenseRef-IGTF
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ca-policy-lcg-feedstock/blob/main/LICENSE.txt)
 
 Summary: Trust anchors endorsed by the EGI.eu foundation
 
