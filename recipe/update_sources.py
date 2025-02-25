@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import gzip
 import hashlib
+import re
 import xml.etree.ElementTree as ET
+from pathlib import Path
 
 import requests
 
@@ -81,8 +83,23 @@ for package in root.findall('{http://linux.duke.edu/metadata/filelists}package')
     to_install.remove(name)
 
 # Print the results
-print('Version is', version)
+recipe_path = Path(__file__).parent / 'meta.yaml'
+raw_yaml = recipe_path.read_text()
+raw_yaml, n = re.subn(r'version = "\d+\.\d+"', f'version = "{version}"', raw_yaml)
+if n != 1:
+    raise ValueError('Could not find the version in the recipe')
+
+start, end = re.search(r"source:\n(\s{2,}[^\n]+\n)+", raw_yaml).span()
+if not raw_yaml[end:].startswith('\nbuild:\n'):
+    raise ValueError('Could not find the build section in the recipe')
+new_sources = [raw_yaml[:start], "source:"]
 for url, file_hash in urls.items():
-    print('  - url:', url)
-    print('    sha256:', file_hash)
-    print('    folder:', metapackage_name)
+    new_sources += [
+        f'  - url: {url}',
+        f'    sha256: {file_hash}',
+        f'    folder: {metapackage_name}'
+    ]
+new_sources += [raw_yaml[end:]]
+new_sources = '\n'.join(new_sources)
+recipe_path.write_text(new_sources)
+print('Updated the recipe with the new sources')
