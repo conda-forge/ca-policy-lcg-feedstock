@@ -6,7 +6,9 @@ IFS=$'\n\t'
 ls "${PKG_NAME}"
 mkdir -p "${PREFIX}/etc/grid-security/certificates"
 cp -r  "${PKG_NAME}"/* "${PREFIX}/etc/grid-security/certificates"
+cp "${RECIPE_DIR}/refresh_crls.sh" "${PREFIX}/etc/grid-security/certificates"
 chmod -R 755 "${PREFIX}/etc/grid-security/certificates"
+"${PREFIX}/etc/grid-security/certificates/refresh_crls.sh"
 
 # Actiation scripts
 mkdir -p "${PREFIX}/etc/conda/activate.d"
