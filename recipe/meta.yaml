@@ -1,5 +1,5 @@
 {% set name = "ca-policy-lcg" %}
-{% set version = "1.143" %}
+{% set version = "1.144" %}
 
 package:
   name: {{ name|lower }}
@@ -15,255 +15,256 @@ package:
 
 
 
+
 source:
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_policy_lcg-{{ version }}.tar.gz
-    sha256: e5cdb65ad19c21271d65199dcea9450abc0df2ec4afef22db7925a624c571afe
+    sha256: f301687bde0aa93f4c39f30910a0bfc8015d41223efa378b8633d61047133b36
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_ANSPGridCA2-{{ version }}.tar.gz
-    sha256: 8c4335e4f984a4adf3badc81eb0b4738e40a910bd82a937e485b99dd2da4e481
+    sha256: 90c359ab740d9bbbcb36c317a21fe7e986130b11c2bfba7139664f6f70d419b4
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_ASGCCA-2007-{{ version }}.tar.gz
-    sha256: 207a5fdb2533b506e36b8d5129c9d6f7cfd19168179092ed810d5ed0f5fd2efe
+    sha256: f0f9e897f3c8a386616ad6856c91d6cbda2e7f941aa248ed03d47ec0c6b40942
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_ArmeSFo-{{ version }}.tar.gz
-    sha256: 5bbfc7cb6989d06fc59ffa13f3edded3053c2fc7625c8ca6454a89bd276fb354
+    sha256: b548bda9f2c2c9b43bf61c6c113a1b1635b3d3f938b78bfdf71b90f27841afec
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_BG-ACAD-CA-{{ version }}.tar.gz
-    sha256: 44a2158c5f801be37e6e8cd92dbf5695c1b91e7ea819722573df72f6b4d8e674
+    sha256: edbd7bf8400bdc1b295eca53f5c0b1efc9ac0d054bec615fdc6204720a53faad
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_CERN-GridCA-{{ version }}.tar.gz
-    sha256: 601c3f05a7dbb53758f7f65bf2d16af9e3b908150b0bc01b2581f8ece16e9284
+    sha256: 64beb10aa092bf597644e030c974c8c37f1454c551bc1d3f9e5a0997a753419a
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_CERN-Root-2-{{ version }}.tar.gz
-    sha256: 73b5eb8ac70deba6627d784036b9ec5a093e9fd1ab55421b614bd9f9c2e769e9
+    sha256: a98225c4f2c07a5f8404d749791521a41cc7e61738188d0cb0792dafc6ef4f3c
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_CESNET-CA-4-{{ version }}.tar.gz
-    sha256: 7bc02593323149ddde2403f81a730e4c847b0543d09e1c806c66754fbe758b81
+    sha256: 5936603e490b50104911748d357fa3303e0f59200f2ece30dbe4c0732590442f
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_CESNET-CA-5-{{ version }}.tar.gz
-    sha256: dc7d48d5d7ee67c7d3149123571c5e8588953e94f17e661f7a09396a43d43e07
+    sha256: 987fd7831595abe2a9c3296db05dda6914ea471a78428586590ceae1c655f222
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_CESNET-CA-Root-{{ version }}.tar.gz
-    sha256: c64486409cd4c6ae587b153aaa9b17fec6d00de931111fdb89a115b28b11e546
+    sha256: c4d9fb9459a2ca6697d210a77687e183feee9b0ce8010b963be2f25574da3ffb
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_CESNET-CA-Root2-{{ version }}.tar.gz
-    sha256: 4b57421adb48e2b43986f53c9101a0363d9675b4d0816e0ac5241635f1c9594a
+    sha256: 965228756eb0be4f51a0017f8b64456dd0866e4fde0e0b1f68903575cca1074b
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DCAROOT-G1-{{ version }}.tar.gz
-    sha256: 73b5b71fdd309102629342e3fbd266a471ff69c84ae7b3deecbe46fc25bb321c
+    sha256: 21d1b07a1d00757511677189f9f3d41ab378b3c4949e0d683fb1ced70553c6b0
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DFN-GridGermany-Root-{{ version }}.tar.gz
-    sha256: 742e237632f3c18b2404f475373538a48e5b1cb3a28314bbea396143c0e12e94
+    sha256: 47759a055a02d426578448f6ab017945e6897ec7c12059bcc5475d65e83ea675
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DZeScienceG2-{{ version }}.tar.gz
-    sha256: 5312e300c8186d7115c547123d5c7fa78f9044edf13d8289040106836c23c0fe
+    sha256: a0b33aff1447031b92e4249f17575a0206b39877caeaf32d58f3521c2960ff08
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DigiCert-Assured-ID-Grid-Client-RSA2048-SHA256-2022-CA1-{{ version }}.tar.gz
-    sha256: ded79214aa82f808d8c86149b6b37cad5b0d4fc32953471b5678bdd5ceb4311f
+    sha256: f79b430b408948a150d1c5cba98b32bcbb1c06625c7da224a9945152c93a193f
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DigiCert-Assured-ID-Grid-TLS-RSA2048-SHA256-2022-CA1-{{ version }}.tar.gz
-    sha256: bdcf75303bd1637a3c97669a92ecb68b947d61aa8ce57bdaaef3886f671c4588
+    sha256: af2634438e55dcc35e2fc7f30ea9e644c7b307a84f0ee260140bf2d562d769f0
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DigiCertAssuredIDRootCA-Root-{{ version }}.tar.gz
-    sha256: e67a27dc9f52b3767da8dc412761a5d0f2d88c342b1eabdcfed7a6651aeb5b76
+    sha256: d2452573b1b36519183102c4f267600e51fc2f70fc8056d980f604de628a2e64
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DigiCertGridCA-1G2-Classic-2015-{{ version }}.tar.gz
-    sha256: df30dcc7eaf833d2db41bf00bdf53a6470dc9f5be5b2b0fec5fdfc3bded1276e
+    sha256: a99c7355c04c18f924432cee2b9ee9c6c06345f89159502d6b77826cafe5c820
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DigiCertGridRootCA-Root-{{ version }}.tar.gz
-    sha256: 836649777809b914fee3f6d71e830e6d7a5303e717a75b3666869e03d72263db
+    sha256: 3b59bb633a99416c15168813abb9616a0f3e6967ba6524f3c98776df6b030f69
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_DigiCertGridTrustCAG2-Classic-{{ version }}.tar.gz
-    sha256: 2753333590a4949b4b6a1804c7314c38fb13db3cf6feecde1454d6e73e40b88f
+    sha256: 9bdeb95662a94e8a4f93fe5f210d9c2d85e2017960d3a2112b992e413f8348fb
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_EMOVTLSCAG2A1-{{ version }}.tar.gz
-    sha256: c210cf40e606401fb0b6302dda8783abf4ca3fc9e1689310181460677a1718b4
+    sha256: d2031f46319366ec663c6d9bc6923011bfbab17368551d9462516c22f9e6e8bb
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_EMOVTLSCAG2B-{{ version }}.tar.gz
-    sha256: b3624791747ff99b03ade13ea75e286e36d741e417721f6c6c0705182c5991dd
+    sha256: 6627ebc121a27f14b44818eb14dcbd946b7d1d9318011351d510327d837e5235
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_EMOVTLSCAG2C-{{ version }}.tar.gz
-    sha256: cd323f385818b554579cc37c5faec380b2423a73add3f3f38378ec341d462056
+    sha256: 8fdd4d487492ce1d9322e9897726f8e312cc41bc8bab5d1fa6eac3f1269f1c6b
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTTCSAuthenticationECCCA4B-{{ version }}.tar.gz
-    sha256: 6cb82e8f36f30267bbfbd1279f76a83a9126436c0d6fe6bcac6dd517bac34459
+    sha256: 3d6328956d9dc78d97491c3bb6308d6ce220b8da7fea67db8c6e472b7a0e4d7e
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTTCSAuthenticationECCCA5-{{ version }}.tar.gz
-    sha256: 46fbd0c8611ad6c1dacb979b7099eb89848213611352f3e0f0dbf3b569b72b4c
+    sha256: b1ed888b46a6b3839133ea237d7e74b7c86fe297412c35f105fd1ae6f776720b
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTTCSAuthenticationRSACA4B-{{ version }}.tar.gz
-    sha256: fde8509cba6b9bc1f8010c2e3a6e89450017842ca5a5f88da4feffd46215f6dc
+    sha256: 63200903a99796c4ea9d5d9134dd3590fb668806c4d083e1dde57acde612547d
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTTCSAuthenticationRSACA5-{{ version }}.tar.gz
-    sha256: 9ca10f9468dca71f2ae9f35ab59bbc84d35e0f9886a77b60fa689d4f301ed925
+    sha256: 1e141d4f4d2116e5e0a75d1f654bb54fc3c3a1aa8e5efcebbf6e0d1f00f4d006
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTTCSRETrustECCRootCA5-{{ version }}.tar.gz
-    sha256: 1b2a97ab344fdc88f736db0685ebd3cc0fe829a8056131ff7260655149f8a34b
+    sha256: 24efe170a88e116a0e81d7508a88f1f80bd1e5fa00ddcbd337ef7bb931bf774f
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTTCSRETrustRSARootCA5-{{ version }}.tar.gz
-    sha256: c811ea2a847558eb7e14d1ce18afffba7e402008ebac4807a79257bf4eb63c9c
+    sha256: b1e37bd2a4f08d4bae231e08cb76f889900bf4f4f80e48bb6833eeff8e9a44cd
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTeSciencePersonalCA4-{{ version }}.tar.gz
-    sha256: 8bc9596808b28d51a9117e1765aa569fc61ec306ff517791bb50b0af672fe6b3
+    sha256: 492240e93da5f99b97c10a65c62a59ff4e4bd501764107b0f05ad9ab720d2f67
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTeSciencePersonalECCCA4-{{ version }}.tar.gz
-    sha256: df20bb191127cd17662cf84d30a0f1b04ba4830aea6f3299988084be6933a1b3
+    sha256: ace5851ffd0f07c7fee88b997a8ea80b12c52f312a578d65df7c3599bccd0264
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTeScienceSSLCA4-{{ version }}.tar.gz
-    sha256: fd32f13201780f812419c81eccc61fa654ef2d2f35f4ecd05d115b5eddf550d4
+    sha256: e3db02fff4fefc7a7b3d9da16390ea2e99a675df46acef8c7416fe2ad51e6014
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GEANTeScienceSSLECCCA4-{{ version }}.tar.gz
-    sha256: 965caec4805a129915f8079613f2284c33666d9c1a035dbc9daf286ba41c3cfd
+    sha256: ab9c96b5ee16bec5a38d70d147af35d9c9849e7a929bcc74f81885186794ae0d
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_GridCanada-{{ version }}.tar.gz
-    sha256: 41038e7d498695a240c96a0545533acf5d70c7d7a473cc9992108a4aaf3feacc
+    sha256: 66207c1af9d966def4d8aca2a4136e0cb4c0a9a1eb71096646e629fe72fb0c38
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HARICAGEANTTLSECC1-{{ version }}.tar.gz
-    sha256: 7a67d4e673556808af016e97d7048ff7e7e6063921c559e6208f9e6a867d54a0
+    sha256: c4181bc0ca845956ab9e450e90da6bf88cbe4072851538d510c19b159102b6f2
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HARICAGEANTTLSRSA1-{{ version }}.tar.gz
-    sha256: 59b00ca0037821701e9ca2de1acb3b4dd3843043a62a4ec05fe618018bf7e9e2
+    sha256: 80d10647ddf6a50df062168e8354affd7f3b0b1f5ee1674037788df1bf0c0825
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HARICAOVTLSECC-{{ version }}.tar.gz
-    sha256: 349fa13855b250cb07a59f94afee469dc8d79ee5a869acc9730379afe5188879
+    sha256: 9c07afc8b371d201683540ca4f0c0798f205c846da9b0ea444dbd7d7cc8bf3ce
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HARICAOVTLSRSA-{{ version }}.tar.gz
-    sha256: 86331eec0eeb62b9782a8a8a45021245a66a3429e706df52fad246e77804aec9
+    sha256: eb376fe1c3eb2bc9c1296833c47359da15aa2bf20130b910a8aabfc819bf21a4
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HARICATLSECCRootCA2021-{{ version }}.tar.gz
-    sha256: 36ec91470cd8c8c2cad49bfee13ac4e07dda4449cb33211555606d521f4ad77f
+    sha256: 7c9817b76660f90b1cb5286669a845af61853758278dde7a9a7d2f058b8ad125
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HARICATLSRSARootCA2021-{{ version }}.tar.gz
-    sha256: a2b2e70aea5cafbf909ee74c734e3c426224d8c6427b452f0e49fad58a9ea165
+    sha256: abe9e5e8d24e16e386b39a708980dbcfacecdb9eba2b868f5d424b8ce0550ebe
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HellenicAcademicandResearchInstitutionsECCRootCA2015-{{ version }}.tar.gz
-    sha256: 5d176bda2e429d8da8cfef669d51bff4153c28ecb9ae69c00666cabdaf80c032
+    sha256: 810665552c1054711ecacf77b31770fe3f69fa2b7ed2fb356d7e22474a26a283
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_HellenicAcademicandResearchInstitutionsRootCA2015-{{ version }}.tar.gz
-    sha256: 0ad8052c0521cffac1739ab57ed68f8bedb9f53595ed3d8a48ffb1306898f3a4
+    sha256: 3dafc4348e032de9e50f74491e6c456cdd6d3960e6e0a634898c5e1b21dc4e3b
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_IGCA2-{{ version }}.tar.gz
-    sha256: 32d087c0140f1771c753da8701cc65db763c699ce403b55d96ec4ed79515598b
+    sha256: 26f7a1e547977d7cddce6eaa1370cce1a02fd57d4a5bf76f6cc650f17fc0ca48
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_IHEP-2013-{{ version }}.tar.gz
-    sha256: 79f78eecc62efe2e19cc7b05e2a5e4340606c1a4433a967aae1b1977ddcae306
+    sha256: 16d591eb4bf7d816bec36bd66553e4d49479a87aaa45e6f1cb85e4d2afd88f3c
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_IRAN-GRID-GCG-G2-{{ version }}.tar.gz
-    sha256: c2f526b104bb0d44f8dcac9a1524467d493bfab778d76f93c65cc58ab91569a1
+    sha256: 8e289d8c9485285aa7b77e3da41a194a56dab58cce8475abc86d8df2c2cd455a
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_InCommon-RSA-IGTF-Server-CA-3-{{ version }}.tar.gz
-    sha256: 0b0fd9926428a9e1994486ab84ec8e7861fad52a1aaf2b4dab6ace59ce9d2c59
+    sha256: da0220e62fe0ad5bd1a80a09ec694a6b5c318c97ae40aff7fba82925f99c7f9d
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_InCommon-RSA-IGTF-Server-CA-4-{{ version }}.tar.gz
-    sha256: a998de42e2339b940aae9e5195abcd73acc122e226f41dbd8e3cdbc0d29bbe7f
+    sha256: d113af3f6804eed105f1077847349998c51131f588ca4dfc48d68375f581f0f4
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_KEK2024-{{ version }}.tar.gz
-    sha256: 62bbe041a8bd8021f185ab46f7c2509957aca298e2f3627357e48bb7fb6bd245
+    sha256: 49904308f44e900ab32d5724d7fb7935972472f109850424fc53dbdbf1420795
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_KISTIv3-{{ version }}.tar.gz
-    sha256: 67ed6f527ccd4fc6cdfd42a25ea14f271e98d5d271ae5846b314a8ec9057293b
+    sha256: 979a35661b7a8950ffadff4f98588a58436f011993056513a85bd184d40d999b
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_MREN-CA-{{ version }}.tar.gz
-    sha256: 5840de2ccb1f4f7d72d889f42eef62c89bc9262e0a6f21cbf25ae827c0734210
+    sha256: 53d782a0e5f190cad98049e186a171f83863a45b3a9701657266b778bf37146d
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_MaGrid-{{ version }}.tar.gz
-    sha256: e5362a385e35f3631054f492e196b2e6dde1abf7eda38871c5a1a3e838bb0ead
+    sha256: 41573e07dc1af67081173d888f90ffd7996c8233014e06c32a18521e89895ddc
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_NIKHEF-{{ version }}.tar.gz
-    sha256: 5280dd505a6d67ae94d116671369bc26abf00cd1e9613ca1f2ecf3f0b160163d
+    sha256: e5e39c67123da7a6023c51ffa1247a232ee98ceccd9cd77d13fd2cad3ff9736b
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_NorduGrid-2015-{{ version }}.tar.gz
-    sha256: 282a88929c49e1deecac033f95566fc1f5a76848e42792112eec3adb94588272
+    sha256: 8e863e299493e22f0fea244b27ec317a4af19b0ee028ab348b3c15f83e6561a8
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_PK-Grid-2007-{{ version }}.tar.gz
-    sha256: c8261f2005a139b6a3fac5f1d645e536858c658b8a4de94325088ff39ed7389a
+    sha256: ee9fa409b4c8197edda6e1efb05b99457ed22ba54c08456af9d208111ac20a22
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_PKIUNAMgrid-{{ version }}.tar.gz
-    sha256: aed0d536c229050c3461f72130ef881ce81e4d4abd63d109eb211392b4fb1488
+    sha256: a92679c7c563dd554b46015e6528e1afdbe485ac963e27df9881f29a02abb6e2
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_PolishGrid-2019-{{ version }}.tar.gz
-    sha256: 45f3f7e5009438c9896fc6fc06bdf7533f11be75f03d69850891b7272be59793
+    sha256: 0797ee54915e615fc7a79c359d037579423083b38836b4b4cd7333b329118231
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_RDIG-{{ version }}.tar.gz
-    sha256: f251dcdde337d683065c9bf15c0f4056e06ad8f883a295401e9b8cd7ad54a88b
+    sha256: 2500083a2ea676de4522363b4e5d11a7df3a25b4b704eedbab76096a463b7486
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_REUNA-ICA-C5-{{ version }}.tar.gz
-    sha256: 2bafbb5e5c7396115dacb08583f96c5f66fcb00b969d1a1fd4039114d88ff186
+    sha256: 589e96ed09fc09585b57a11f4ef998be549ad2284fff87eecf94b15e732bddc6
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_REUNA-ca-{{ version }}.tar.gz
-    sha256: 8ed46cc2d11877137c8f217f36000d9057549e477332ec075e8dd9ed742c961a
+    sha256: 02b4b85172229584fcfae3fe9f6994193abe6f48220f990e6c4389e91c6de6ac
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_ResearchandEducationTrustECCRootCA-{{ version }}.tar.gz
-    sha256: 666b5e459b1da9fbae767022ffb75029b740ef555550fda8b6b032df9d3e7ffa
+    sha256: d060ff86d198571e2ca56a212eda4c36d0b942a9cfccf67d7f5c3f57a1ae6b7e
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_ResearchandEducationTrustRSARootCA-{{ version }}.tar.gz
-    sha256: b879b3448a9e16d49745cbbf4360b219ddce40b4d2a6f6dd89541ca963aab7e9
+    sha256: 2c0d5e4d87295644a2df6a906188a6cfe4edc2a84198c9e3cd37a5bdd93cdb8f
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_RomanianGRID-{{ version }}.tar.gz
-    sha256: 8f773971aceafeec7db24d4d5c61b459b5c8f1873da0154e6cf3d2827417bc0e
+    sha256: d0439de487ede3b5c82d302723ec631dc09e14d38b45d1510b889f67982cae24
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_SiGNET-CA-{{ version }}.tar.gz
-    sha256: 405d69d0bf2ef2ba5b8b72858217dee6501b4f07b2095181d79b5cfb35e6d649
+    sha256: d950e3b31a94cee42c990ab4e79232e6fd12d239ceff43a62ba53f2db2b9a9be
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_SlovakGrid-{{ version }}.tar.gz
-    sha256: 1f06c79d399549fbf96a53acabf52135b6697eef9c6ad58634f595c1de7722f4
+    sha256: 4b4fab1460fdc0fe0b35c18c82f9e9fc6ac3be5a92ffb4750efabd4374911a39
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_TRGrid2024-{{ version }}.tar.gz
-    sha256: 51a5bd6af159e3dbaef7c6ad9a331e8b1efb172692361e2bc5abaf09da65312f
+    sha256: a99dc4145c150aadede9ae74f712e9581ad259eabac369dbef71ccdef537b1a1
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_UGRID-G2-{{ version }}.tar.gz
-    sha256: 215ccc80388383ca1afc99382a60ec03f606f1d895a314156ef32f2bbd8eebea
+    sha256: 8138617ec0d2f206dcf9bf2ee5b666edfb075e7885c0f32bf63d18ff4b82c721
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_UKeScienceCA-2B-{{ version }}.tar.gz
-    sha256: c5b16021aa19e214584daa09da9b91a68ba5c3f9b8e732d0ac01dfb319f5270c
+    sha256: d03e66ddf5551a75bff451c6db93f0e4b0d9a531c5dea76067aebdc93f6d5b86
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_UKeScienceCA-3B-{{ version }}.tar.gz
-    sha256: 0ab06e1aa2996163aed48b05f6d9cce3b1ed3a58b6cea03b5d09f67ff9569e67
+    sha256: 7f169e0454f17cf5bbba26aafc5eeab439c3fa46b89c0ee6244b103a28b386e5
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_UKeScienceRoot-2007-{{ version }}.tar.gz
-    sha256: 452d5d11b85ba6d1ed0198e87c1da7c56b3aab738de2352723127dd954749970
+    sha256: ce0b10333eeb4cb404495d77db0e5d22c047b8af1f8693b6aa429344b115e876
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_UKeScienceRoot-2026-{{ version }}.tar.gz
-    sha256: 498519e1b3e7ea13e14295603415aaa1286a7df1d9707fca33705c2b9d194676
+    sha256: 74c1a5c17991a5072a1dd3a05cde4b8a963903cebed806cd1be714a262c098d6
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_UNAMgrid-ca-{{ version }}.tar.gz
-    sha256: 485204f6995fd67d3d30a941b3501cb395e48920193887d69d6bf31786611fb0
+    sha256: 0f41c254760c2bc9b31e8fce0519723009c09f5aa46f21953a965d91cfd499f5
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_USERTrustECCCertificationAuthority-{{ version }}.tar.gz
-    sha256: 9c5a7d370ad8f948d545004bbdad0c44107a857e6630688fd96cf40715aaecae
+    sha256: ac181706fbdf791bde22a7af2f0e74aa1350ec5d9ad45cde57f34d1e077fdaec
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_USERTrustRSACertificationAuthority-{{ version }}.tar.gz
-    sha256: 1dc838242d5d980b7cb1a099594613a74018f78260489ea81021cd4ab719c25f
+    sha256: 4bb324ae6ef7382956fb689d2acba5f6658c6080a4d39a11c93d97282f339427
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_eMudhra-TrustedRootCAC4-{{ version }}.tar.gz
-    sha256: 0a1d876f5e72beac7502ea2a974a8db8ec03b77313e5d2b6698f65d1f167b27b
+    sha256: 8ed1fe2f15c059f773897481466c2b8acc3bd644a1b5c1ffdd10a22cc4ce1b63
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_eMudhra-TrustedRootCAC5-{{ version }}.tar.gz
-    sha256: f90cd8f34df45bb7c04eae9e5dac6b06e520f42e490bc43f5b2882a47f1dc916
+    sha256: c3b8af7f4ab9b05a7028ba612af12abb7a13bf509d89af585590b66349ba1b92
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_emSignClass1CAG1-{{ version }}.tar.gz
-    sha256: 2dcd68802287271b88a17a1a83ca62b28ef0524823134ab7e6e9c2ec7a2fcdc1
+    sha256: 60dae80fb8dc1775a3e68f80000355eef3b03b6565695012cb45a6b65120689a
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_emSignRootCAG1-{{ version }}.tar.gz
-    sha256: 0cf583eaa9fe313a9b2a12aefd9bfa2b33fc7e39a6e98739b35fc15cc4c11404
+    sha256: c8322797e274164d0eed9723a5d5239223a17a64bc5cf0981a88303727311b12
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_emSignRootTLSCAG1-{{ version }}.tar.gz
-    sha256: 3e3434f263ec1c22851d69854ed9e902209aa6a05872bfb71d85b4534580ef99
+    sha256: 76ca53204048f854da1b4b9765e4dd64e15bb0627fefbbd8a8a80cc8ea8ff7e0
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_emSignSSLCAG1-{{ version }}.tar.gz
-    sha256: 4eb9a34f6e2b0fa65fe7f8453b19f002b3a471a895729e530a48f82717ebef96
+    sha256: 3b8f57895a33a25125a18c82b029338150a2cbc48e4e5e166f0e94a61e547267
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_emigtfc4-{{ version }}.tar.gz
-    sha256: d14ba642847c3b6fd4e728f9f51d6bcbc30f5c00fd7a630e62505b87ebb508d6
+    sha256: d1e83cc840b1e98b3ebc6f62a22958856b654b1298bb51f8eb5d57b86ca843e7
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_emigtfc5-{{ version }}.tar.gz
-    sha256: 2a27a09ef353c6f30cd5659155b9ac8b177e2620dcd8d6315ef881118dc65651
+    sha256: e0d4c8d41a6ac4a5a8944212d205e0b3d5ebc5a8706dc54050beccc00c11e3f4
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_emigtfc5r1-{{ version }}.tar.gz
-    sha256: 18ed106282078e7f71a22a002e9fbf895263639fdadeb52f7a196b12d2077582
+    sha256: c88738ad8c81cd290e90aa4f1003946681695359aedbd00a20708a2e0588e315
     folder: ca-policy-lcg
   - url: https://repository.egi.eu/sw/production/cas/1/current/tgz/ca_seegrid-ca-2013-{{ version }}.tar.gz
-    sha256: 468087b22ccc03f48ab449d2276b3de512b6f1d898aff821bab4971c67ddb051
+    sha256: e931140bf876494adc3e4dd3deb779f45aae1139eb4f19332f1cb9e8e9ca0455
     folder: ca-policy-lcg
 
 build:
