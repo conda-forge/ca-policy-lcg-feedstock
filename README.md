@@ -49,31 +49,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `ca-policy-lcg` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install ca-policy-lcg
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install ca-policy-lcg
 ```
 
-It is possible to list all of the versions of `ca-policy-lcg` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add ca-policy-lcg
+# for installing globally
+pixi global install ca-policy-lcg
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `ca-policy-lcg` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search ca-policy-lcg --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search ca-policy-lcg --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search ca-policy-lcg --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -85,6 +127,8 @@ mamba repoquery whoneeds ca-policy-lcg --channel conda-forge
 # List dependencies of `ca-policy-lcg`:
 mamba repoquery depends ca-policy-lcg --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
